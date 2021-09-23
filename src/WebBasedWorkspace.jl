@@ -1,5 +1,12 @@
 module WebBasedWorkspace
 
-# Write your package code here.
+using HTTP
+using Pkg
+using TOML
+using URIs
+
+include("utils.jl")
+include("package_specs.jl")
+include("github.jl")
 
 end
